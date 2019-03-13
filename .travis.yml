@@ -19,3 +19,5 @@ android:
     
     before_install:
     - yes | sdkmanager "platforms;android-27"
+    
+    
