@@ -25,3 +25,12 @@ task clean(type: Delete) {
 
 dependencies {
 }
+
+android {
+  lintOptions {
+    // use this line to check all rules except those listed
+    disable 'RuleToDisable', 'SecondRuleToDisable'
+    // use this line to check just listed rules
+    enable 'FirstRuleToCheck', 'LastRuleToCheck'
+  }
+}
