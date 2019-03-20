@@ -19,6 +19,8 @@ android:
     # - sys-img-x86-android-26
     #- sys-img-armeabi-v7a-google_apis-17
     - sys-img-armeabi-v7a-android-27 
+    - extra-android-support
+    - extran-android-m2repository
 
   licenses:
     - 'android-sdk-license-.+'
