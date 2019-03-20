@@ -20,7 +20,7 @@ android:
     - sys-img-armeabi-v7a-google_apis-27
 
   licenses:
-    - 'android-sdk-licence-.+'
+    - 'android-sdk-license-.+'
     - 'android-sdk-preview-license-.+'
     - 'google-gdk-license-.+'
 
