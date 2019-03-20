@@ -11,14 +11,14 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
-    android {
-      lintOptions {
-        // use this line to check all rules except those listed
-        disable 'RuleToDisable', 'SecondRuleToDisable'
-        // use this line to check just listed rules
-        enable 'FirstRuleToCheck', 'LastRuleToCheck'
-      }
-    }
+}
+android {
+  lintOptions {
+    // use this line to check all rules except those listed
+    disable 'RuleToDisable', 'SecondRuleToDisable'
+    // use this line to check just listed rules
+    enable 'FirstRuleToCheck', 'LastRuleToCheck'
+  }
 }
 allprojects {
     repositories {
