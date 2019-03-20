@@ -5,6 +5,8 @@ android:
     # use the latest revision of Android SDK Tools
     # - tools
     # - platform-tools
+    - tools # to get the new `repository-11.xml`
+    - tools # to install Android SDK tools 25.1.x (x = 6 right now)
 
     # The BuildTools version used by your project
     # - build-tools-26.0.2
